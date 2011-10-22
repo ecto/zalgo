@@ -14,5 +14,8 @@
   "dependencies": {
     "colors": "0.5.x"
   },
+  "bin": {
+    "zalgo": "zalgo.js"
+  }
   "devDependencies": {}
 }
