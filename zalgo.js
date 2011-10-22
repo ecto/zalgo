@@ -13,6 +13,7 @@ var colors = require('colors'),
 
 if (!process.argv[2]) {
   spit('usage: zalgo "he comes"'.magenta);
+  process.exit();
 }
 
 console.log(
