@@ -16,6 +16,4 @@ if (!process.argv[2]) {
   process.exit();
 }
 
-console.log(
-  colors.zalgo(process.argv[2]).rainbow
-);
+spit(colors.zalgo(process.argv[2]).rainbow);
