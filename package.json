@@ -16,6 +16,6 @@
   },
   "bin": {
     "zalgo": "zalgo.js"
-  }
+  },
   "devDependencies": {}
 }
