@@ -7,8 +7,9 @@
  */
 
 var colors = require('colors'),
-    spit = function(text){
-      console.log('\n\n' + text + '\n\n');
+    spit = function(text, padding){
+      padding = (Array(padding) || Array(2)).join('\n');
+      console.log(padding + text + padding);
     };
 
 if (!process.argv[2]) {
@@ -16,4 +17,4 @@ if (!process.argv[2]) {
   process.exit();
 }
 
-spit(colors.zalgo(process.argv[2]).rainbow);
+spit(colors.zalgo(process.argv[2]).rainbow,5);
