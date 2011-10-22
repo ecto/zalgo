@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 /*
  * zalgo
  * wrapper for Marak's colors zalgo generator
